@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "rapport_campagne_vaccinaion"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ce398f33-f798-41b5-94a7-3d9d2e9c3c0b"
+  }
+}
