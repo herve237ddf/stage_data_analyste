@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true,\"filterPaneHiddenInEditMode\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -25,7 +25,71 @@
       "filters": "[]",
       "height": 720.00,
       "name": "78bc1b6db30332de0bd3",
-      "visualContainers": [],
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"007787396f0ae0fd9557\",\"layouts\":[{\"id\":0,\"position\":{\"x\":400,\"y\":112,\"z\":2003,\"width\":240.00000000000003,\"height\":240.00000000000003,\"tabOrder\":2003}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.Region\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_Depart)\"},{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_transporte)\"},{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_Restant)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Region\"},\"Name\":\"Data_Dashboard_1a.Region\",\"NativeReferenceName\":\"Region\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_Depart\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_Depart)\",\"NativeReferenceName\":\"Somme de Stock_Depart\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_transporte\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_transporte)\",\"NativeReferenceName\":\"Somme de Stock_transporte\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_Restant\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_Restant)\",\"NativeReferenceName\":\"Somme de Stock_Restant\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_Depart\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Comparaison des stocks par région'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 240.00,
+          "x": 400.00,
+          "y": 112.00,
+          "z": 2003.00
+        },
+        {
+          "config": "{\"name\":\"4e43e2d548d6ecbbee54\",\"layouts\":[{\"id\":0,\"position\":{\"x\":927.9999999999999,\"y\":128,\"z\":2001,\"width\":352,\"height\":240.00000000000003,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.Fonction_Agent\",\"active\":true}],\"Y\":[{\"queryRef\":\"Mesures.total\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Mesures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fonction_Agent\"},\"Name\":\"Data_Dashboard_1a.Fonction_Agent\",\"NativeReferenceName\":\"Fonction_Agent\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"total\"},\"Name\":\"Mesures.total\",\"NativeReferenceName\":\"total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"total\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Répartition des agents par  Fonction'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 352.00,
+          "x": 928.00,
+          "y": 128.00,
+          "z": 2001.00
+        },
+        {
+          "config": "{\"name\":\"5ed94f6d8f0785048119\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":112,\"z\":2000,\"width\":400,\"height\":240.00000000000003,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Année\"},{\"queryRef\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Trimestre\"},{\"queryRef\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Mois\"},{\"queryRef\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Jour\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_transporte)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"date_debut_enregistrement\"}},\"Hierarchy\":\"Hiérarchie de dates\"}},\"Level\":\"Année\"},\"Name\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Année\",\"NativeReferenceName\":\"date_debut_enregistrement Année\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"date_debut_enregistrement\"}},\"Hierarchy\":\"Hiérarchie de dates\"}},\"Level\":\"Trimestre\"},\"Name\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Trimestre\",\"NativeReferenceName\":\"date_debut_enregistrement Trimestre\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"date_debut_enregistrement\"}},\"Hierarchy\":\"Hiérarchie de dates\"}},\"Level\":\"Mois\"},\"Name\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Mois\",\"NativeReferenceName\":\"date_debut_enregistrement Mois\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Name\":\"Variation\",\"Property\":\"date_debut_enregistrement\"}},\"Hierarchy\":\"Hiérarchie de dates\"}},\"Level\":\"Jour\"},\"Name\":\"Data_Dashboard_1a.date_debut_enregistrement.Variation.Hiérarchie de dates.Jour\",\"NativeReferenceName\":\"date_debut_enregistrement Jour\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_transporte\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_transporte)\",\"NativeReferenceName\":\"Somme de Stock_transporte\"}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 400.00,
+          "x": 0.00,
+          "y": 112.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"87814da30e9342ef1841\",\"layouts\":[{\"id\":0,\"position\":{\"x\":400,\"y\":416,\"z\":2002,\"width\":256,\"height\":288,\"tabOrder\":2002}}],\"singleVisual\":{\"visualType\":\"lineClusteredColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.Nom_Superviseur\",\"active\":true}],\"Y\":[{\"queryRef\":\"Mesures.total\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Mesures\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"total\"},\"Name\":\"Mesures.total\",\"NativeReferenceName\":\"total\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Nom_Superviseur\"},\"Name\":\"Data_Dashboard_1a.Nom_Superviseur\",\"NativeReferenceName\":\"Nom_Superviseur\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"total\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Visualiser la charge par superviseur'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 288.00,
+          "width": 256.00,
+          "x": 400.00,
+          "y": 416.00,
+          "z": 2002.00
+        },
+        {
+          "config": "{\"name\":\"bd6056859e858afac97e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":416,\"z\":1000,\"width\":400,\"height\":288,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.ID_Campagne_Vaccination\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_transporte)\"},{\"queryRef\":\"Sum(Data_Dashboard_1a.Stock_Restant)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"ID_Campagne_Vaccination\"},\"Name\":\"Data_Dashboard_1a.ID_Campagne_Vaccination\",\"NativeReferenceName\":\"ID_Campagne_Vaccination\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_transporte\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_transporte)\",\"NativeReferenceName\":\"Somme de Stock_transporte\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_Restant\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Stock_Restant)\",\"NativeReferenceName\":\"Somme de Stock_Restant\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Stock_transporte\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 288.00,
+          "width": 400.00,
+          "x": 0.00,
+          "y": 416.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c37b09f763d6203d6e2a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":672,\"y\":383.99999999999994,\"z\":0,\"width\":608,\"height\":336,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"map\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.Aire_de_sante\",\"active\":true}],\"Y\":[{\"queryRef\":\"Avg(Data_Dashboard_1a.GPS_Lat)\"}],\"X\":[{\"queryRef\":\"Avg(Data_Dashboard_1a.GPS_Long)\"}],\"Series\":[{\"queryRef\":\"Data_Dashboard_1a.Formation_Specifique\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Aire_de_sante\"},\"Name\":\"Data_Dashboard_1a.Aire_de_sante\",\"NativeReferenceName\":\"Aire_de_sante\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GPS_Lat\"}},\"Function\":1},\"Name\":\"Avg(Data_Dashboard_1a.GPS_Lat)\",\"NativeReferenceName\":\"Moyenne de GPS_Lat\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GPS_Long\"}},\"Function\":1},\"Name\":\"Avg(Data_Dashboard_1a.GPS_Long)\",\"NativeReferenceName\":\"Moyenne de GPS_Long\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Formation_Specifique\"},\"Name\":\"Data_Dashboard_1a.Formation_Specifique\",\"NativeReferenceName\":\"Campagne cible\"}]},\"columnProperties\":{\"Data_Dashboard_1a.Formation_Specifique\":{\"displayName\":\"Campagne cible\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"bubbles\":[{\"properties\":{\"bubbleSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Data_Dashboard_1a\"}},\"Property\":\"Formation_Specifique\"}},\"Right\":{\"Literal\":{\"Value\":\"'Polio'\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Répartition des campagnes par aire de santé'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 336.00,
+          "width": 608.00,
+          "x": 672.00,
+          "y": 384.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"dca682495e51ffeee0b4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":672,\"y\":112,\"z\":2004,\"width\":240.00000000000003,\"height\":240.00000000000003,\"tabOrder\":2004}}],\"singleVisual\":{\"visualType\":\"lineStackedColumnComboChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Data_Dashboard_1a.Moyen_transport\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(Data_Dashboard_1a.Trajet_Km)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"Data_Dashboard_1a\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Moyen_transport\"},\"Name\":\"Data_Dashboard_1a.Moyen_transport\",\"NativeReferenceName\":\"Moyen_transport\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Trajet_Km\"}},\"Function\":0},\"Name\":\"Sum(Data_Dashboard_1a.Trajet_Km)\",\"NativeReferenceName\":\"Somme de Trajet_Km\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Trajet_Km\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 240.00,
+          "x": 672.00,
+          "y": 112.00,
+          "z": 2004.00
+        }
+      ],
       "width": 1280.00
     }
   ]
