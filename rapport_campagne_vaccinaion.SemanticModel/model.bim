@@ -3946,6 +3946,16 @@
                       "State": "Suggested",
                       "Weight": 0.9
                     }
+                  },
+                  {
+                    "Campagne": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -9874,6 +9884,351 @@
                     }
                   }
                 ]
+              },
+              "mesure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mesure": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "mesure.column": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Column"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "column": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "pilaster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pier": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pillar": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "post": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "support": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "stake": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "pole": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "buttress": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "underpinning": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "contribution": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "mesure.total_agent_sante": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "total agent sante"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total agent sante": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate agent sante": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall agent sante": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mesure.total_campagne": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Total campagne"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total campagne": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate campagne": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall campagne": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "mesure.total_site_couvert": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Total site couvert"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total site couvert": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "total website couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total campus couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total homepage couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "total locale couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "aggregate site couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall site couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total place couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total position couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "total spot couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mesure.total_zones_couvert": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Total zones couvert"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total zones couvert": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate zone couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "overall zone couvert": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
               }
             },
             "Language": "en-US",
@@ -9943,7 +10298,7 @@
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années9",
+                    "ID": "trimestres_are_in_années",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.année"
@@ -9991,7 +10346,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années9",
+                    "ID": "hiérarchie_de_dates_have_années10",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10141,7 +10496,7 @@
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises9",
+                    "ID": "jour_are_in_moises",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
@@ -10207,7 +10562,7 @@
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres9",
+                    "ID": "moises_are_in_trimestres",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
@@ -10288,7 +10643,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres10",
+                    "ID": "années_have_trimestres8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10301,12 +10656,12 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années10",
+                    "ID": "trimestres_have_années8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années10",
+                    "ID": "trimestres_are_in_années1",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.année"
@@ -10354,7 +10709,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années10",
+                    "ID": "hiérarchie_de_dates_have_années9",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10387,7 +10742,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour10",
+                    "ID": "hiérarchie_de_dates_have_jour8",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10420,7 +10775,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises10",
+                    "ID": "hiérarchie_de_dates_have_moises8",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10453,7 +10808,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres10",
+                    "ID": "hiérarchie_de_dates_have_trimestres8",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10486,7 +10841,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour10",
+                    "ID": "moises_have_jour8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10499,12 +10854,12 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises10",
+                    "ID": "jour_have_moises8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises10",
+                    "ID": "jour_are_in_moises1",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.mois"
@@ -10552,7 +10907,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises10",
+                    "ID": "trimestres_have_moises8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10565,12 +10920,12 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres10",
+                    "ID": "moises_have_trimestres8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres10",
+                    "ID": "moises_are_in_trimestres1",
                     "Preposition": {
                       "Object": {
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.trimestre"
@@ -11443,7 +11798,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres2",
+                    "ID": "années_have_trimestres7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11456,7 +11811,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années2",
+                    "ID": "trimestres_have_années7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11509,7 +11864,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années2",
+                    "ID": "hiérarchie_de_dates_have_années8",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11542,7 +11897,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour2",
+                    "ID": "hiérarchie_de_dates_have_jour7",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11575,7 +11930,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises2",
+                    "ID": "hiérarchie_de_dates_have_moises7",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11608,7 +11963,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres2",
+                    "ID": "hiérarchie_de_dates_have_trimestres7",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11641,7 +11996,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour2",
+                    "ID": "moises_have_jour7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11654,7 +12009,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises2",
+                    "ID": "jour_have_moises7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11707,7 +12062,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises2",
+                    "ID": "trimestres_have_moises7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11720,7 +12075,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres2",
+                    "ID": "moises_have_trimestres7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11773,7 +12128,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement"
                       }
                     },
-                    "ID": "date_debut_enregistrements_have_hiérarchie_de_dates",
+                    "ID": "date_debut_enregistrements_have_hiérarchie_de_dates1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11806,7 +12161,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres",
+                    "ID": "années_have_trimestres6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11819,12 +12174,12 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années",
+                    "ID": "trimestres_have_années6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années",
+                    "ID": "trimestres_are_in_années3",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.année"
@@ -11872,7 +12227,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années",
+                    "ID": "hiérarchie_de_dates_have_années7",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11905,7 +12260,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour",
+                    "ID": "hiérarchie_de_dates_have_jour6",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11938,7 +12293,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises",
+                    "ID": "hiérarchie_de_dates_have_moises6",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11971,7 +12326,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres",
+                    "ID": "hiérarchie_de_dates_have_trimestres6",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12004,7 +12359,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour",
+                    "ID": "moises_have_jour6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12017,12 +12372,12 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises",
+                    "ID": "jour_have_moises6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises",
+                    "ID": "jour_are_in_moises3",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
@@ -12070,7 +12425,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises",
+                    "ID": "trimestres_have_moises6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12083,12 +12438,12 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres",
+                    "ID": "moises_have_trimestres6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres",
+                    "ID": "moises_are_in_trimestres3",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
@@ -12169,7 +12524,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres3",
+                    "ID": "années_have_trimestres5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12182,12 +12537,12 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années3",
+                    "ID": "trimestres_have_années5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années3",
+                    "ID": "trimestres_are_in_années4",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.année"
@@ -12235,7 +12590,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années3",
+                    "ID": "hiérarchie_de_dates_have_années6",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12268,7 +12623,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour3",
+                    "ID": "hiérarchie_de_dates_have_jour5",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12301,7 +12656,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises3",
+                    "ID": "hiérarchie_de_dates_have_moises5",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12334,7 +12689,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres3",
+                    "ID": "hiérarchie_de_dates_have_trimestres5",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12367,7 +12722,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour3",
+                    "ID": "moises_have_jour5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12380,12 +12735,12 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises3",
+                    "ID": "jour_have_moises5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises3",
+                    "ID": "jour_are_in_moises4",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.mois"
@@ -12433,7 +12788,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises3",
+                    "ID": "trimestres_have_moises5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12446,12 +12801,12 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres3",
+                    "ID": "moises_have_trimestres5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres3",
+                    "ID": "moises_are_in_trimestres4",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.trimestre"
@@ -12532,7 +12887,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres1",
+                    "ID": "années_have_trimestres4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12545,12 +12900,12 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années1",
+                    "ID": "trimestres_have_années4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années1",
+                    "ID": "trimestres_are_in_années5",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.année"
@@ -12598,7 +12953,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années1",
+                    "ID": "hiérarchie_de_dates_have_années5",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12631,7 +12986,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour1",
+                    "ID": "hiérarchie_de_dates_have_jour4",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12664,7 +13019,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises1",
+                    "ID": "hiérarchie_de_dates_have_moises4",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12697,7 +13052,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres1",
+                    "ID": "hiérarchie_de_dates_have_trimestres4",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12730,7 +13085,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour1",
+                    "ID": "moises_have_jour4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12743,12 +13098,12 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises1",
+                    "ID": "jour_have_moises4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises1",
+                    "ID": "jour_are_in_moises5",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.mois"
@@ -12796,7 +13151,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises1",
+                    "ID": "trimestres_have_moises4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12809,12 +13164,12 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres1",
+                    "ID": "moises_have_trimestres4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres1",
+                    "ID": "moises_are_in_trimestres5",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.trimestre"
@@ -13635,6 +13990,138 @@
                   "data_dashboard_1a.materiel_fonctionnel": {
                     "Target": {
                       "Entity": "data_dashboard_1a.materiel_fonctionnel"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_total_agent_sante": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_agent_sante"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_agent_sante",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_agent_sante": {
+                    "Target": {
+                      "Entity": "mesure.total_agent_sante"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_total_campagne": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_campagne"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_campagne",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_campagne": {
+                    "Target": {
+                      "Entity": "mesure.total_campagne"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_total_site_couvert": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_site_couvert"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_site_couvert",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_site_couvert": {
+                    "Target": {
+                      "Entity": "mesure.total_site_couvert"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_total_zones_couvert": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_zones_couvert"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_zones_couvert",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_zones_couvert": {
+                    "Target": {
+                      "Entity": "mesure.total_zones_couvert"
                     }
                   }
                 },
@@ -14503,7 +14990,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres4",
+                    "ID": "années_have_trimestres3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -14516,12 +15003,12 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années4",
+                    "ID": "trimestres_have_années3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années4",
+                    "ID": "trimestres_are_in_années6",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.année"
@@ -14602,7 +15089,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour4",
+                    "ID": "hiérarchie_de_dates_have_jour3",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -14635,7 +15122,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises4",
+                    "ID": "hiérarchie_de_dates_have_moises3",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -14668,7 +15155,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres4",
+                    "ID": "hiérarchie_de_dates_have_trimestres3",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -14701,7 +15188,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour4",
+                    "ID": "moises_have_jour3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -14714,12 +15201,12 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises4",
+                    "ID": "jour_have_moises3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises4",
+                    "ID": "jour_are_in_moises6",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.mois"
@@ -14767,7 +15254,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises4",
+                    "ID": "trimestres_have_moises3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -14780,12 +15267,12 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres4",
+                    "ID": "moises_have_trimestres3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres4",
+                    "ID": "moises_are_in_trimestres6",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.trimestre"
@@ -14866,7 +15353,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres5",
+                    "ID": "années_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -14879,12 +15366,12 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années5",
+                    "ID": "trimestres_have_années2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années5",
+                    "ID": "trimestres_are_in_années7",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.année"
@@ -14932,7 +15419,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années5",
+                    "ID": "hiérarchie_de_dates_have_années3",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -14965,7 +15452,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour5",
+                    "ID": "hiérarchie_de_dates_have_jour2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -14998,7 +15485,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises5",
+                    "ID": "hiérarchie_de_dates_have_moises2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -15031,7 +15518,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres5",
+                    "ID": "hiérarchie_de_dates_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -15064,7 +15551,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour5",
+                    "ID": "moises_have_jour2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15077,12 +15564,12 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises5",
+                    "ID": "jour_have_moises2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises5",
+                    "ID": "jour_are_in_moises7",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.mois"
@@ -15130,7 +15617,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises5",
+                    "ID": "trimestres_have_moises2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15143,12 +15630,12 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres5",
+                    "ID": "moises_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres5",
+                    "ID": "moises_are_in_trimestres7",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.trimestre"
@@ -15988,7 +16475,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres7",
+                    "ID": "années_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16001,12 +16488,12 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années7",
+                    "ID": "trimestres_have_années1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années7",
+                    "ID": "trimestres_are_in_années8",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.année"
@@ -16054,7 +16541,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années7",
+                    "ID": "hiérarchie_de_dates_have_années2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16087,7 +16574,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour7",
+                    "ID": "hiérarchie_de_dates_have_jour1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16120,7 +16607,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises7",
+                    "ID": "hiérarchie_de_dates_have_moises1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16153,7 +16640,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres7",
+                    "ID": "hiérarchie_de_dates_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16186,7 +16673,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour7",
+                    "ID": "moises_have_jour1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16199,12 +16686,12 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises7",
+                    "ID": "jour_have_moises1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises7",
+                    "ID": "jour_are_in_moises8",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.mois"
@@ -16252,7 +16739,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises7",
+                    "ID": "trimestres_have_moises1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16265,12 +16752,12 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres7",
+                    "ID": "moises_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres7",
+                    "ID": "moises_are_in_trimestres8",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.trimestre"
@@ -16318,7 +16805,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement"
                       }
                     },
-                    "ID": "date_debut_enregistrements_have_hiérarchie_de_dates1",
+                    "ID": "date_debut_enregistrements_have_hiérarchie_de_dates",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16351,7 +16838,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres6",
+                    "ID": "années_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16364,12 +16851,12 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années6",
+                    "ID": "trimestres_have_années",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années6",
+                    "ID": "trimestres_are_in_années9",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.année"
@@ -16417,7 +16904,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années6",
+                    "ID": "hiérarchie_de_dates_have_années1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16450,7 +16937,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour6",
+                    "ID": "hiérarchie_de_dates_have_jour",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16483,7 +16970,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises6",
+                    "ID": "hiérarchie_de_dates_have_moises",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16516,7 +17003,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres6",
+                    "ID": "hiérarchie_de_dates_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16549,7 +17036,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour6",
+                    "ID": "moises_have_jour",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16562,12 +17049,12 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises6",
+                    "ID": "jour_have_moises",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises6",
+                    "ID": "jour_are_in_moises9",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
@@ -16615,7 +17102,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises6",
+                    "ID": "trimestres_have_moises",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16628,12 +17115,12 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres6",
+                    "ID": "moises_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres6",
+                    "ID": "moises_are_in_trimestres9",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
@@ -16714,7 +17201,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres8",
+                    "ID": "années_have_trimestres10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16727,12 +17214,12 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années8",
+                    "ID": "trimestres_have_années10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "trimestres_are_in_années8",
+                    "ID": "trimestres_are_in_années10",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.année"
@@ -16780,7 +17267,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années8",
+                    "ID": "hiérarchie_de_dates_have_années",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16813,7 +17300,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_jour8",
+                    "ID": "hiérarchie_de_dates_have_jour10",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16846,7 +17333,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_moises8",
+                    "ID": "hiérarchie_de_dates_have_moises10",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16879,7 +17366,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_trimestres8",
+                    "ID": "hiérarchie_de_dates_have_trimestres10",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16912,7 +17399,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour8",
+                    "ID": "moises_have_jour10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16925,12 +17412,12 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises8",
+                    "ID": "jour_have_moises10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "jour_are_in_moises8",
+                    "ID": "jour_are_in_moises10",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.mois"
@@ -16978,7 +17465,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises8",
+                    "ID": "trimestres_have_moises10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16991,12 +17478,12 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres8",
+                    "ID": "moises_have_trimestres10",
                     "State": "Generated",
                     "Weight": 0.99
                   },
                   {
-                    "ID": "moises_are_in_trimestres8",
+                    "ID": "moises_are_in_trimestres10",
                     "Preposition": {
                       "Object": {
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date.trimestre"
@@ -17322,6 +17809,66 @@
                   "data_dashboard_2.adresse_quartier": {
                     "Target": {
                       "Entity": "data_dashboard_2.adresse_quartier"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_2_has_age": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_2"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "data_dashboard_2.age"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_2"
+                      }
+                    },
+                    "ID": "data_dashboard_2_have_ages",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "old": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "young": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "data_dashboard_2.age"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_2"
+                      }
+                    },
+                    "ID": "age_indicates_how_old_data_dashboard_2_are",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_2": {
+                    "Target": {
+                      "Entity": "data_dashboard_2"
+                    }
+                  },
+                  "data_dashboard_2.age": {
+                    "Target": {
+                      "Entity": "data_dashboard_2.age"
                     }
                   }
                 },
@@ -18362,61 +18909,34 @@
                 },
                 "State": "Generated"
               },
-              "data_dashboard_2_is_old": {
+              "mesure_has_column": {
                 "Binding": {
-                  "ConceptualEntity": "Data_Dashboard_2"
+                  "ConceptualEntity": "Mesures"
                 },
                 "Phrasings": [
                   {
-                    "Adjective": {
-                      "Adjectives": [
-                        {
-                          "old": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Antonyms": [
-                        {
-                          "young": {
-                            "State": "Generated"
-                          }
-                        }
-                      ],
-                      "Measurement": {
-                        "Role": "data_dashboard_2.age"
-                      },
-                      "Subject": {
-                        "Role": "data_dashboard_2"
-                      }
-                    },
-                    "ID": "age_indicates_how_old_data_dashboard_2_are",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  },
-                  {
                     "Attribute": {
                       "Object": {
-                        "Role": "data_dashboard_2.age"
+                        "Role": "mesure.column"
                       },
                       "Subject": {
-                        "Role": "data_dashboard_2"
+                        "Role": "mesure"
                       }
                     },
-                    "ID": "data_dashboard_2_have_ages",
+                    "ID": "mesures_have_columns",
                     "State": "Generated",
                     "Weight": 0.99
                   }
                 ],
                 "Roles": {
-                  "data_dashboard_2": {
+                  "mesure": {
                     "Target": {
-                      "Entity": "data_dashboard_2"
+                      "Entity": "mesure"
                     }
                   },
-                  "data_dashboard_2.age": {
+                  "mesure.column": {
                     "Target": {
-                      "Entity": "data_dashboard_2.age"
+                      "Entity": "mesure.column"
                     }
                   }
                 },
@@ -19241,7 +19761,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Desktop\\Stage data analyse\\Rapport\\Datas\\Data_Dashboard_1a.csv\"),[Delimiter=\",\", Columns=45, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Documents\\GitHub\\stage_data_analyste\\Datas\\Data_Dashboard_1a.csv\"),[Delimiter=\",\", Columns=45, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
                 "    #\"En-têtes promus\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
                 "    #\"Type modifié\" = Table.TransformColumnTypes(#\"En-têtes promus\",{{\"Serial Number\", Int64.Type}, {\"Zone_ID\", type text}, {\"ID_Campagne_Vaccination\", type text}, {\"Region\", type text}, {\"District\", type text}, {\"Aire_de_sante\", type text}, {\"Nom_du_site\", type text}, {\"ID_Site\", type text}, {\"date_debut_enregistrement\", type date}, {\"GPS_Lat\", type text}, {\"GPS_Long\", type text}, {\"Trajet_Km\", Int64.Type}, {\"Niveau_accessibilite\", type text}, {\"Moyen_transport\", type text}, {\"Immatriculation_vehicule\", type text}, {\"Carte_grise\", type text}, {\"Nom_chauffeur\", type text}, {\"Permis_conduire\", type text}, {\"Statut_site\", type text}, {\"ID_Superviseur\", Int64.Type}, {\"Nom_Superviseur\", type text}, {\"ID_Agent_Sante\", Int64.Type}, {\"Nom_Agent_Sante\", type text}, {\"Profession_Agent\", type text}, {\"Fonction_Agent\", type text}, {\"Experience_Vaccination\", type text}, {\"Annees_Experience\", Int64.Type}, {\"Formation_Specifique\", type text}, {\"Approbation_Formation_Superviseur\", type text}, {\"ID_Materiel\", Int64.Type}, {\"Nom_materiel\", type text}, {\"Type_materiel\", type text}, {\"Stock_Depart\", Int64.Type}, {\"Stock_transporte\", Int64.Type}, {\"Materiel_Fonctionnel\", type text}, {\"Nom_Demandeur\", type text}, {\"Temperature_Conservation\", type text}, {\"Date_Transport\", type date}, {\"Lieu_Depart\", type text}, {\"Lieu_Arrivee\", type text}, {\"Date_Arrivee\", type date}, {\"Nom_Receveur\", type text}, {\"Stock_Restant\", Int64.Type}, {\"Rupture_Stock\", type text}, {\"Date_fin_enregistrement\", type date}}),",
                 "    #\"Type modifié avec paramètres régionaux\" = Table.TransformColumnTypes(#\"Type modifié\", {{\"GPS_Lat\", type number}}, \"en-CM\"),",
@@ -19251,9 +19771,10 @@
                 "    #\"Valeur remplacée2\" = Table.ReplaceValue(#\"Valeur remplacée1\",\"\",\"\",Replacer.ReplaceValue,{\"Nom_chauffeur\"}),",
                 "    #\"Valeur remplacée3\" = Table.ReplaceValue(#\"Valeur remplacée2\",\"N/A\",\"\",Replacer.ReplaceText,{\"Nom_chauffeur\"}),",
                 "    #\"Valeur remplacée4\" = Table.ReplaceValue(#\"Valeur remplacée3\",\"N/A\",\"\",Replacer.ReplaceText,{\"Permis_conduire\"}),",
-                "    #\"Valeur remplacée5\" = Table.ReplaceValue(#\"Valeur remplacée4\",\"N/A\",\"\",Replacer.ReplaceText,{\"Temperature_Conservation\"})",
+                "    #\"Valeur remplacée5\" = Table.ReplaceValue(#\"Valeur remplacée4\",\"N/A\",\"\",Replacer.ReplaceText,{\"Temperature_Conservation\"}),",
+                "    #\"Lignes vides supprimées\" = Table.SelectRows(#\"Valeur remplacée5\", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {\"\", null})))",
                 "in",
-                "    #\"Valeur remplacée5\""
+                "    #\"Lignes vides supprimées\""
               ],
               "type": "m"
             }
@@ -20645,7 +21166,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Desktop\\Stage data analyse\\Rapport\\Datas\\Data_Dashboard_1b.csv\"),[Delimiter=\",\", Columns=22, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Documents\\GitHub\\stage_data_analyste\\Datas\\Data_Dashboard_1b.csv\"),[Delimiter=\",\", Columns=22, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
                 "    #\"En-têtes promus\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
                 "    #\"Type modifié\" = Table.TransformColumnTypes(#\"En-têtes promus\",{{\"Serial Number\", Int64.Type}, {\"date_début\", type date}, {\"ID_Campagne\", type text}, {\"Zone_ID\", type text}, {\"#Superviseurs\", Int64.Type}, {\"nom_du_Superviseur\", type text}, {\"Nb_Vaccinateurs_Necessaires\", Int64.Type}, {\"Nb_Equipes_Affectees\", Int64.Type}, {\"#agent_de_santé_formé\", Int64.Type}, {\"date_fin\", type date}, {\"Stock_Vaccins_Requis\", Int64.Type}, {\"Stock_Vaccins_Disponibles\", Int64.Type}, {\"Nb_Doses_Perdus\", Int64.Type}, {\"Nb_de_site_couvert\", Int64.Type}, {\"Nb_de_site_sensibilisé\", Int64.Type}, {\"%de_site_Sensibilisé\", type text}, {\"Coût_logistique\", type text}, {\"Partenaires\", type text}, {\"Type_vaccin\", type text}, {\"Incidents\", Int64.Type}, {\"Satisfaction\", type text}, {\"Coût_total\", type text}})",
                 "in",
@@ -21631,7 +22152,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Desktop\\Stage data analyse\\Rapport\\Datas\\Data_Dashboard_2.csv\"),[Delimiter=\",\", Columns=37, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Documents\\GitHub\\stage_data_analyste\\Datas\\Data_Dashboard_2.csv\"),[Delimiter=\",\", Columns=37, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
                 "    #\"En-têtes promus\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
                 "    #\"Type modifié\" = Table.TransformColumnTypes(#\"En-têtes promus\",{{\"Serial Number\", Int64.Type}, {\"Zone_ID\", type text}, {\"ID_Campagne\", type text}, {\"date_debut_enregistrement\", type date}, {\"GPS_Lat\", type text}, {\"GPS_Long\", type text}, {\"Id Agent de santé\", Int64.Type}, {\"Nom_Agent_Sante\", type text}, {\"Région\", type text}, {\"District_Sanitaire\", type text}, {\"ID_Site\", type text}, {\"Nom_du_patient (complet)\", type text}, {\"Age\", Int64.Type}, {\"Unite_Age\", type text}, {\"Sexe\", type text}, {\"Adresse_quartier\", type text}, {\"Contact 1\", type text}, {\"noms_du_parent_tuteur\", type text}, {\"Contact 2\", type text}, {\"Déjà vacciné?\", type text}, {\"Date de la dernière vaccination\", type date}, {\"Eligible\", type text}, {\"Accord pour la vaccination\", type text}, {\"Raison du refus\", type text}, {\"Numéro ou ID du client eligible\", type text}, {\"Statut clinique du patient\", type text}, {\"noms_maladies_vaccinale\", type text}, {\"Nom_du_vaccin\", type text}, {\"Type_de_vaccin\", type text}, {\"Numéro_du_lot_vaccin\", type text}, {\"Dose_administrée\", type text}, {\"Doses_utilisées\", Int64.Type}, {\"ID_carnet_de_vaccination\", type text}, {\"Date_vaccination\", type date}, {\"Description_du_dernier_vaccin\", type text}, {\"Column 35\", type text}, {\"Colonne 5\", type text}}),",
                 "    #\"Type modifié avec paramètres régionaux\" = Table.TransformColumnTypes(#\"Type modifié\", {{\"GPS_Lat\", type number}}, \"en-CM\"),",
@@ -22628,7 +23149,7 @@
             "source": {
               "expression": [
                 "let",
-                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Desktop\\Stage data analyse\\Rapport\\Datas\\Data_Dashboard_3 (1).csv\"),[Delimiter=\",\", Columns=23, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\nguef\\Documents\\GitHub\\stage_data_analyste\\Datas\\Data_Dashboard_3 (1).csv\"),[Delimiter=\",\", Columns=23, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
                 "    #\"En-têtes promus\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
                 "    #\"Type modifié\" = Table.TransformColumnTypes(#\"En-têtes promus\",{{\"Serial Number\", Int64.Type}, {\"Zone_ID\", type text}, {\"date_debut_enregistrement\", type date}, {\"ID_Campagne\", type text}, {\"ID_Site\", type text}, {\"Nb_Vaccines\", Int64.Type}, {\"Nb_Refus\", Int64.Type}, {\"Nb_Absents\", Int64.Type}, {\"Nb_Rattrapage\", Int64.Type}, {\"Doses_Reçues\", Int64.Type}, {\"Doses_Administrees\", Int64.Type}, {\"Pertes\", Int64.Type}, {\"Couverture (%)\", type text}, {\"Taux_Refus (%)\", type text}, {\"Taux_Absents (%)\", type text}, {\"Source_Donnees\", type text}, {\"Date_Verification\", type date}, {\"Verifie_Par\", type text}, {\"Population_Totale\", Int64.Type}, {\"Pop_Cible_9_59_mois\", Int64.Type}, {\"Pop_Femmes_15_49_ans\", Int64.Type}, {\"Pop_Enfants_0_5ans\", Int64.Type}, {\"Pop_Contacts_Cas\", Int64.Type}})",
                 "in",
@@ -23081,10 +23602,46 @@
         "lineageTag": "a827a5af-6178-4fd4-8931-a625d4f45cfc",
         "measures": [
           {
-            "name": "total",
-            "expression": "COUNT(Data_Dashboard_1a[ID_Agent_Sante])",
+            "name": "total agent sante",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[ID_Agent_Sante])",
             "formatString": "0",
-            "lineageTag": "83d663b4-cd58-42b5-b1fc-6cc034ff803b"
+            "lineageTag": "58586c52-9a3e-48b2-af5a-8e4bed3a322d"
+          },
+          {
+            "name": "Total campagne",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[ID_Campagne_Vaccination])",
+            "formatString": "0",
+            "lineageTag": "5feea636-83e9-4403-87c6-f50b8bdadc4a"
+          },
+          {
+            "name": "Total zones couvert",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[Zone_ID])",
+            "formatString": "0",
+            "lineageTag": "73343d5b-bb32-4336-94df-045318b05822"
+          },
+          {
+            "name": "Total site couvert",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[ID_Site])",
+            "formatString": "0",
+            "lineageTag": "da331cd6-51e1-4ccb-bc80-97d7d578b6b6"
+          },
+          {
+            "name": "materiel transporté",
+            "expression": "SUM(Data_Dashboard_1a[Stock_transporte])",
+            "formatString": "0",
+            "lineageTag": "1ff8319b-cfd1-49bf-baee-776319da0ad2"
+          },
+          {
+            "name": "materiel restant",
+            "expression": "SUM(Data_Dashboard_1a[Stock_Restant])",
+            "formatString": "0",
+            "lineageTag": "aa672196-ab0c-42bf-b5de-b1c145dab93f"
+          },
+          {
+            "name": "Materiel utilisé",
+            "expression": "Mesures[materiel transporté]-[materiel restant]",
+            "formatString": "0",
+            "lineageTag": "21f70c1c-e948-48ba-afe1-8129daa763b6"
           }
         ],
         "partitions": [
