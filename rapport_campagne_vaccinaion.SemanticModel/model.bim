@@ -1,5 +1,5 @@
 {
-  "compatibilityLevel": 1550,
+  "compatibilityLevel": 1567,
   "model": {
     "annotations": [
       {
@@ -1982,12 +1982,6 @@
                     }
                   },
                   {
-                    "materiel": {
-                      "State": "Generated",
-                      "Weight": 0.97
-                    }
-                  },
-                  {
                     "identification materiel": {
                       "Source": {
                         "Agent": "Thesaurus"
@@ -3664,6 +3658,72 @@
                   }
                 ]
               },
+              "data_dashboard_1a.durée_dla_transaction": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Data_Dashboard_1a",
+                    "ConceptualProperty": "Durée dla transaction"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "durée dla transaction": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "durée dla operation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "durée dla deal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "durée dla business": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "durée dla contract": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "durée dla matter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  }
+                ]
+              },
               "data_dashboard_1a.experience_vaccination": {
                 "Definition": {
                   "Binding": {
@@ -3938,7 +3998,7 @@
                     }
                   },
                   {
-                    "Campagne cible": {
+                    "Campagne": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -3948,7 +4008,7 @@
                     }
                   },
                   {
-                    "Campagne": {
+                    "Campagne cible": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
@@ -4384,12 +4444,6 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "materiel": {
-                      "State": "Generated",
-                      "Weight": 0.97
                     }
                   }
                 ]
@@ -5096,12 +5150,6 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
-                    }
-                  },
-                  {
-                    "materiel": {
-                      "State": "Generated",
-                      "Weight": 0.97
                     }
                   },
                   {
@@ -7873,38 +7921,6 @@
                   }
                 ]
               },
-              "data_dashboard_2.colonne_5": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Data_Dashboard_2",
-                    "ConceptualProperty": "Colonne 5"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "colonne 5": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
-              "data_dashboard_2.column_35": {
-                "Definition": {
-                  "Binding": {
-                    "ConceptualEntity": "Data_Dashboard_2",
-                    "ConceptualProperty": "Column 35"
-                  }
-                },
-                "State": "Generated",
-                "Terms": [
-                  {
-                    "column 35": {
-                      "State": "Generated"
-                    }
-                  }
-                ]
-              },
               "data_dashboard_2.contact_1": {
                 "Definition": {
                   "Binding": {
@@ -9885,6 +9901,167 @@
                   }
                 ]
               },
+              "materiel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Materiel"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "materiel.materiel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Materiel",
+                    "ConceptualProperty": "Materiel"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "materiel name": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "materiel.materiel_champs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Materiel",
+                    "ConceptualProperty": "Materiel Champs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel champs": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "champs": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "materiel winner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "materiel victor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "materiel titleholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "winner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "victor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "titleholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "materiel champion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "champion": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "materiel.materiel_commande": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Materiel",
+                    "ConceptualProperty": "Materiel Commande"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel commande": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
               "mesure": {
                 "Definition": {
                   "Binding": {
@@ -9896,6 +10073,186 @@
                   {
                     "mesure": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "mesure.agent_experimenté": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Agent experimenté"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "agent experimenté": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "mesure.agent_experimeté": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "% agent experimeté"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% agent experimeté": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage agent experimeté": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct agent experimeté": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mesure.agent_par_site": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Agent par site"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "agent par site": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "site": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "par site": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "agent par website": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "agent par campus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "agent par homepage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "agent par locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "par website": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "par campus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "par homepage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "par locale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "agent par place": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "agent par position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
                     }
                   }
                 ]
@@ -10016,6 +10373,182 @@
                   }
                 ]
               },
+              "mesure.materiel_restant": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "materiel restant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel restant": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Restant": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mesure.materiel_restant1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "% materiel restant"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% materiel restant": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage materiel restant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct materiel restant": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mesure.materiel_transporté": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "materiel transporté"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel transporté": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Transporté": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mesure.materiel_utilisé": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Materiel utilisé"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "materiel utilisé": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Utilisé": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "mesure.materiel_utilisé1": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "% materiel utilisé"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "% materiel utilisé": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage materiel utilisé": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "pct materiel utilisé": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "mesure.taux_de_stock_utilisé": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Taux de stock utilisé"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "taux de stock utilisé": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "taux de inventory utilisé": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.599
+                    }
+                  }
+                ]
+              },
               "mesure.total_agent_sante": {
                 "Definition": {
                   "Binding": {
@@ -10078,6 +10611,48 @@
                   },
                   {
                     "overall campagne": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "mesure.total_chauffeur": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Total chauffeur"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total chauffeur": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "chauffeur": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "aggregate chauffeur": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall chauffeur": {
                       "Source": {
                         "Agent": "Thesaurus"
                       },
@@ -10194,6 +10769,42 @@
                   }
                 ]
               },
+              "mesure.total_superviseur": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Mesures",
+                    "ConceptualProperty": "Total superviseur"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total superviseur": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate superviseur": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall superviseur": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
               "mesure.total_zones_couvert": {
                 "Definition": {
                   "Binding": {
@@ -10280,7 +10891,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres9",
+                    "ID": "années_have_trimestres8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10293,7 +10904,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années9",
+                    "ID": "trimestres_have_années8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10346,7 +10957,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années10",
+                    "ID": "hiérarchie_de_dates_have_années9",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10478,7 +11089,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour9",
+                    "ID": "moises_have_jour8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10491,7 +11102,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises9",
+                    "ID": "jour_have_moises8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10544,7 +11155,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises9",
+                    "ID": "trimestres_have_moises8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10557,7 +11168,7 @@
                         "Role": "Data_Dashboard_3_1.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres9",
+                    "ID": "moises_have_trimestres8",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10643,7 +11254,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres8",
+                    "ID": "années_have_trimestres7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10656,7 +11267,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années8",
+                    "ID": "trimestres_have_années7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10709,7 +11320,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années9",
+                    "ID": "hiérarchie_de_dates_have_années8",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -10841,7 +11452,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour8",
+                    "ID": "moises_have_jour7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10854,7 +11465,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises8",
+                    "ID": "jour_have_moises7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10907,7 +11518,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises8",
+                    "ID": "trimestres_have_moises7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -10920,7 +11531,7 @@
                         "Role": "Data_Dashboard_3_1.date_verification.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres8",
+                    "ID": "moises_have_trimestres7",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11798,7 +12409,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres7",
+                    "ID": "années_have_trimestres6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11811,7 +12422,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années7",
+                    "ID": "trimestres_have_années6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -11864,7 +12475,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années8",
+                    "ID": "hiérarchie_de_dates_have_années7",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -11996,7 +12607,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour7",
+                    "ID": "moises_have_jour6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12009,7 +12620,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises7",
+                    "ID": "jour_have_moises6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12062,7 +12673,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises7",
+                    "ID": "trimestres_have_moises6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12075,7 +12686,7 @@
                         "Role": "data_dashboard_1a.date_arrivee.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres7",
+                    "ID": "moises_have_trimestres6",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12161,7 +12772,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres6",
+                    "ID": "années_have_trimestres5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12174,7 +12785,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années6",
+                    "ID": "trimestres_have_années5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12227,7 +12838,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années7",
+                    "ID": "hiérarchie_de_dates_have_années6",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12359,7 +12970,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour6",
+                    "ID": "moises_have_jour5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12372,7 +12983,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises6",
+                    "ID": "jour_have_moises5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12425,7 +13036,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises6",
+                    "ID": "trimestres_have_moises5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12438,7 +13049,7 @@
                         "Role": "data_dashboard_1a.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres6",
+                    "ID": "moises_have_trimestres5",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12524,7 +13135,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres5",
+                    "ID": "années_have_trimestres4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12537,7 +13148,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années5",
+                    "ID": "trimestres_have_années4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12590,7 +13201,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années6",
+                    "ID": "hiérarchie_de_dates_have_années5",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -12722,7 +13333,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour5",
+                    "ID": "moises_have_jour4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12735,7 +13346,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises5",
+                    "ID": "jour_have_moises4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12788,7 +13399,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises5",
+                    "ID": "trimestres_have_moises4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12801,7 +13412,7 @@
                         "Role": "data_dashboard_1a.date_fin_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres5",
+                    "ID": "moises_have_trimestres4",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12887,7 +13498,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres4",
+                    "ID": "années_have_trimestres3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12900,7 +13511,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années4",
+                    "ID": "trimestres_have_années3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -12953,7 +13564,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années5",
+                    "ID": "hiérarchie_de_dates_have_années4",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -13085,7 +13696,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour4",
+                    "ID": "moises_have_jour3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -13098,7 +13709,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises4",
+                    "ID": "jour_have_moises3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -13151,7 +13762,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises4",
+                    "ID": "trimestres_have_moises3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -13164,7 +13775,7 @@
                         "Role": "data_dashboard_1a.date_transport.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres4",
+                    "ID": "moises_have_trimestres3",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -13566,39 +14177,6 @@
                 },
                 "State": "Generated"
               },
-              "data_dashboard_1a_has_data_dashboard_2": {
-                "Binding": {
-                  "ConceptualEntity": "Data_Dashboard_1a"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "data_dashboard_2"
-                      },
-                      "Subject": {
-                        "Role": "data_dashboard_1a"
-                      }
-                    },
-                    "ID": "data_dashboard_1as_have_data_dashboard_2",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "data_dashboard_1a": {
-                    "Target": {
-                      "Entity": "data_dashboard_1a"
-                    }
-                  },
-                  "data_dashboard_2": {
-                    "Target": {
-                      "Entity": "data_dashboard_2"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
               "data_dashboard_1a_has_date_arrivee": {
                 "Binding": {
                   "ConceptualEntity": "Data_Dashboard_1a"
@@ -13759,6 +14337,39 @@
                   "data_dashboard_1a.district": {
                     "Target": {
                       "Entity": "data_dashboard_1a.district"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_durée_dla_transaction": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "data_dashboard_1a.durée_dla_transaction"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_durée_dla_transactions",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "data_dashboard_1a.durée_dla_transaction": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a.durée_dla_transaction"
                     }
                   }
                 },
@@ -13995,6 +14606,303 @@
                 },
                 "State": "Generated"
               },
+              "data_dashboard_1a_has_mesure_agent_experimenté": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.agent_experimenté"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_agent_experimenté",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.agent_experimenté": {
+                    "Target": {
+                      "Entity": "mesure.agent_experimenté"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_agent_experimeté": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.agent_experimeté"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have__agent_experimeté",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.agent_experimeté": {
+                    "Target": {
+                      "Entity": "mesure.agent_experimeté"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_agent_par_site": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.agent_par_site"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_agent_par_site",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.agent_par_site": {
+                    "Target": {
+                      "Entity": "mesure.agent_par_site"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_materiel_restant": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.materiel_restant"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_materiel_restant",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.materiel_restant": {
+                    "Target": {
+                      "Entity": "mesure.materiel_restant"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_materiel_restant1": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.materiel_restant1"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have__materiel_restant",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.materiel_restant1": {
+                    "Target": {
+                      "Entity": "mesure.materiel_restant1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_materiel_transporté": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.materiel_transporté"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_materiel_transporté",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.materiel_transporté": {
+                    "Target": {
+                      "Entity": "mesure.materiel_transporté"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_materiel_utilisé": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.materiel_utilisé"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_materiel_utilisé",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.materiel_utilisé": {
+                    "Target": {
+                      "Entity": "mesure.materiel_utilisé"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_materiel_utilisé1": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.materiel_utilisé1"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have__materiel_utilisé",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.materiel_utilisé1": {
+                    "Target": {
+                      "Entity": "mesure.materiel_utilisé1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_taux_de_stock_utilisé": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.taux_de_stock_utilisé"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_taux_de_stock_utilisé",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.taux_de_stock_utilisé": {
+                    "Target": {
+                      "Entity": "mesure.taux_de_stock_utilisé"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "data_dashboard_1a_has_mesure_total_agent_sante": {
                 "Binding": {
                   "ConceptualEntity": "Data_Dashboard_1a"
@@ -14061,6 +14969,39 @@
                 },
                 "State": "Generated"
               },
+              "data_dashboard_1a_has_mesure_total_chauffeur": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_chauffeur"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_chauffeur",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_chauffeur": {
+                    "Target": {
+                      "Entity": "mesure.total_chauffeur"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "data_dashboard_1a_has_mesure_total_site_couvert": {
                 "Binding": {
                   "ConceptualEntity": "Data_Dashboard_1a"
@@ -14089,6 +15030,39 @@
                   "mesure.total_site_couvert": {
                     "Target": {
                       "Entity": "mesure.total_site_couvert"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "data_dashboard_1a_has_mesure_total_superviseur": {
+                "Binding": {
+                  "ConceptualEntity": "Data_Dashboard_1a"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "mesure.total_superviseur"
+                      },
+                      "Subject": {
+                        "Role": "data_dashboard_1a"
+                      }
+                    },
+                    "ID": "data_dashboard_1as_have_total_superviseur",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "data_dashboard_1a": {
+                    "Target": {
+                      "Entity": "data_dashboard_1a"
+                    }
+                  },
+                  "mesure.total_superviseur": {
+                    "Target": {
+                      "Entity": "mesure.total_superviseur"
                     }
                   }
                 },
@@ -14990,7 +15964,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres3",
+                    "ID": "années_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15003,7 +15977,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années3",
+                    "ID": "trimestres_have_années2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15056,7 +16030,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années4",
+                    "ID": "hiérarchie_de_dates_have_années3",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -15188,7 +16162,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour3",
+                    "ID": "moises_have_jour2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15201,7 +16175,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises3",
+                    "ID": "jour_have_moises2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15254,7 +16228,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises3",
+                    "ID": "trimestres_have_moises2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15267,7 +16241,7 @@
                         "Role": "data_dashboard_1b.date_début.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres3",
+                    "ID": "moises_have_trimestres2",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15353,7 +16327,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres2",
+                    "ID": "années_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15366,7 +16340,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années2",
+                    "ID": "trimestres_have_années1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15419,7 +16393,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années3",
+                    "ID": "hiérarchie_de_dates_have_années2",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -15551,7 +16525,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour2",
+                    "ID": "moises_have_jour1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15564,7 +16538,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises2",
+                    "ID": "jour_have_moises1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15617,7 +16591,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises2",
+                    "ID": "trimestres_have_moises1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15630,7 +16604,7 @@
                         "Role": "data_dashboard_1b.date_fin.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres2",
+                    "ID": "moises_have_trimestres1",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -15796,39 +16770,6 @@
                   "data_dashboard_1b.coût_total": {
                     "Target": {
                       "Entity": "data_dashboard_1b.coût_total"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "data_dashboard_1b_has_data_dashboard_2": {
-                "Binding": {
-                  "ConceptualEntity": "Data_Dashboard_1b"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "data_dashboard_2"
-                      },
-                      "Subject": {
-                        "Role": "data_dashboard_1b"
-                      }
-                    },
-                    "ID": "data_dashboard_1bs_have_data_dashboard_2",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "data_dashboard_1b": {
-                    "Target": {
-                      "Entity": "data_dashboard_1b"
-                    }
-                  },
-                  "data_dashboard_2": {
-                    "Target": {
-                      "Entity": "data_dashboard_2"
                     }
                   }
                 },
@@ -16475,7 +17416,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres1",
+                    "ID": "années_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16488,7 +17429,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années1",
+                    "ID": "trimestres_have_années",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16541,7 +17482,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années2",
+                    "ID": "hiérarchie_de_dates_have_années1",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -16673,7 +17614,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour1",
+                    "ID": "moises_have_jour",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16686,7 +17627,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises1",
+                    "ID": "jour_have_moises",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16739,7 +17680,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises1",
+                    "ID": "trimestres_have_moises",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16752,7 +17693,7 @@
                         "Role": "data_dashboard_2.date_de_la_dernière_vaccination.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres1",
+                    "ID": "moises_have_trimestres",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16838,7 +17779,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.année"
                       }
                     },
-                    "ID": "années_have_trimestres",
+                    "ID": "années_have_trimestres9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16851,7 +17792,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_années",
+                    "ID": "trimestres_have_années9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -16904,7 +17845,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années1",
+                    "ID": "hiérarchie_de_dates_have_années",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -17036,7 +17977,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_jour",
+                    "ID": "moises_have_jour9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -17049,7 +17990,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.jour"
                       }
                     },
-                    "ID": "jour_have_moises",
+                    "ID": "jour_have_moises9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -17102,7 +18043,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.trimestre"
                       }
                     },
-                    "ID": "trimestres_have_moises",
+                    "ID": "trimestres_have_moises9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -17115,7 +18056,7 @@
                         "Role": "data_dashboard_2.date_debut_enregistrement.variation.hiérarchie_de_date.mois"
                       }
                     },
-                    "ID": "moises_have_trimestres",
+                    "ID": "moises_have_trimestres9",
                     "State": "Generated",
                     "Weight": 0.99
                   },
@@ -17267,7 +18208,7 @@
                         "Role": "data_dashboard_2.date_vaccination.variation.hiérarchie_de_date"
                       }
                     },
-                    "ID": "hiérarchie_de_dates_have_années",
+                    "ID": "hiérarchie_de_dates_have_années10",
                     "State": "Generated",
                     "Weight": 0.99
                   }
@@ -18001,72 +18942,6 @@
                   "data_dashboard_2.contact_2": {
                     "Target": {
                       "Entity": "data_dashboard_2.contact_2"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "data_dashboard_2_has_data_dashboard_1a": {
-                "Binding": {
-                  "ConceptualEntity": "Data_Dashboard_2"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "data_dashboard_1a"
-                      },
-                      "Subject": {
-                        "Role": "data_dashboard_2"
-                      }
-                    },
-                    "ID": "data_dashboard_2_have_data_dashboard_1as",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "data_dashboard_1a": {
-                    "Target": {
-                      "Entity": "data_dashboard_1a"
-                    }
-                  },
-                  "data_dashboard_2": {
-                    "Target": {
-                      "Entity": "data_dashboard_2"
-                    }
-                  }
-                },
-                "State": "Generated"
-              },
-              "data_dashboard_2_has_data_dashboard_1b": {
-                "Binding": {
-                  "ConceptualEntity": "Data_Dashboard_2"
-                },
-                "Phrasings": [
-                  {
-                    "Attribute": {
-                      "Object": {
-                        "Role": "data_dashboard_1b"
-                      },
-                      "Subject": {
-                        "Role": "data_dashboard_2"
-                      }
-                    },
-                    "ID": "data_dashboard_2_have_data_dashboard_1bs",
-                    "State": "Generated",
-                    "Weight": 0.99
-                  }
-                ],
-                "Roles": {
-                  "data_dashboard_1b": {
-                    "Target": {
-                      "Entity": "data_dashboard_1b"
-                    }
-                  },
-                  "data_dashboard_2": {
-                    "Target": {
-                      "Entity": "data_dashboard_2"
                     }
                   }
                 },
@@ -18909,6 +19784,52 @@
                 },
                 "State": "Generated"
               },
+              "materiel_has_materiel": {
+                "Binding": {
+                  "ConceptualEntity": "Materiel"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "materiel.materiel"
+                      },
+                      "Subject": {
+                        "Role": "materiel"
+                      }
+                    },
+                    "ID": "materiel_have_materiel",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "materiel_are_names_IDs_of_materiel",
+                    "Name": {
+                      "Name": {
+                        "Role": "materiel.materiel"
+                      },
+                      "Subject": {
+                        "Role": "materiel"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "materiel": {
+                    "Target": {
+                      "Entity": "materiel"
+                    }
+                  },
+                  "materiel.materiel": {
+                    "Target": {
+                      "Entity": "materiel.materiel"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "mesure_has_column": {
                 "Binding": {
                   "ConceptualEntity": "Mesures"
@@ -19044,24 +19965,6 @@
         "toTable": "LocalDateTable_46d8db00-57b9-4bee-a794-b59da9a8f030"
       },
       {
-        "name": "AutoDetected_856dc2a2-62ea-481c-af86-d309b5f88282",
-        "crossFilteringBehavior": "bothDirections",
-        "fromCardinality": "one",
-        "fromColumn": "Serial Number",
-        "fromTable": "Data_Dashboard_1a",
-        "toColumn": "Serial Number",
-        "toTable": "Data_Dashboard_2"
-      },
-      {
-        "name": "AutoDetected_f449aca5-a285-4438-bf5d-f99be7c7f2cc",
-        "crossFilteringBehavior": "bothDirections",
-        "fromCardinality": "one",
-        "fromColumn": "Serial Number",
-        "fromTable": "Data_Dashboard_1b",
-        "toColumn": "Serial Number",
-        "toTable": "Data_Dashboard_2"
-      },
-      {
         "name": "AutoDetected_5f06bdd4-f030-4efb-8ee2-707781b1ccea",
         "crossFilteringBehavior": "bothDirections",
         "fromCardinality": "one",
@@ -19098,7 +20001,7 @@
             "formatString": "0",
             "lineageTag": "6190f72a-d01c-4342-ac5a-b8d46e269c9b",
             "sourceColumn": "Serial Number",
-            "summarizeBy": "none"
+            "summarizeBy": "sum"
           },
           {
             "name": "Zone_ID",
@@ -19751,6 +20654,26 @@
                 "relationship": "10eca908-a851-4d5b-ba92-d29ceb46a8ab"
               }
             ]
+          },
+          {
+            "name": "Durée dla transaction",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "var jours = DATEDIFF(Data_Dashboard_1a[Date_Transport],Data_Dashboard_1a[Date_Arrivee],DAY)",
+              "var heures = DATEDIFF(Data_Dashboard_1a[Date_Transport],Data_Dashboard_1a[Date_Arrivee],HOUR)-(jours*24)",
+              "RETURN jours & \" jour \" & heures & \" h\""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "ec7d1975-590f-44d9-a0a9-b146c1ab7e8e",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "9573ff64-d2bc-48a2-84ca-c49a6d627d34",
@@ -20840,7 +21763,7 @@
             "formatString": "0",
             "lineageTag": "3925d1bc-d7b0-4d2e-b484-240832c79560",
             "sourceColumn": "Serial Number",
-            "summarizeBy": "none"
+            "summarizeBy": "sum"
           },
           {
             "name": "date_début",
@@ -20917,6 +21840,11 @@
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
               }
             ],
             "dataType": "string",
@@ -22116,32 +23044,6 @@
             "lineageTag": "5be7b1e2-7465-4717-be2b-ca1423f51f20",
             "sourceColumn": "Description_du_dernier_vaccin",
             "summarizeBy": "none"
-          },
-          {
-            "name": "Column 35",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "da3ce6f8-74c1-4d20-8c36-bddf05e8b052",
-            "sourceColumn": "Column 35",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "Colonne 5",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "7a588682-a581-484c-a15c-c4245ad46d2f",
-            "sourceColumn": "Colonne 5",
-            "summarizeBy": "none"
           }
         ],
         "lineageTag": "044754e3-85bf-47ce-84c3-2965d49bf74d",
@@ -22156,9 +23058,10 @@
                 "    #\"En-têtes promus\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
                 "    #\"Type modifié\" = Table.TransformColumnTypes(#\"En-têtes promus\",{{\"Serial Number\", Int64.Type}, {\"Zone_ID\", type text}, {\"ID_Campagne\", type text}, {\"date_debut_enregistrement\", type date}, {\"GPS_Lat\", type text}, {\"GPS_Long\", type text}, {\"Id Agent de santé\", Int64.Type}, {\"Nom_Agent_Sante\", type text}, {\"Région\", type text}, {\"District_Sanitaire\", type text}, {\"ID_Site\", type text}, {\"Nom_du_patient (complet)\", type text}, {\"Age\", Int64.Type}, {\"Unite_Age\", type text}, {\"Sexe\", type text}, {\"Adresse_quartier\", type text}, {\"Contact 1\", type text}, {\"noms_du_parent_tuteur\", type text}, {\"Contact 2\", type text}, {\"Déjà vacciné?\", type text}, {\"Date de la dernière vaccination\", type date}, {\"Eligible\", type text}, {\"Accord pour la vaccination\", type text}, {\"Raison du refus\", type text}, {\"Numéro ou ID du client eligible\", type text}, {\"Statut clinique du patient\", type text}, {\"noms_maladies_vaccinale\", type text}, {\"Nom_du_vaccin\", type text}, {\"Type_de_vaccin\", type text}, {\"Numéro_du_lot_vaccin\", type text}, {\"Dose_administrée\", type text}, {\"Doses_utilisées\", Int64.Type}, {\"ID_carnet_de_vaccination\", type text}, {\"Date_vaccination\", type date}, {\"Description_du_dernier_vaccin\", type text}, {\"Column 35\", type text}, {\"Colonne 5\", type text}}),",
                 "    #\"Type modifié avec paramètres régionaux\" = Table.TransformColumnTypes(#\"Type modifié\", {{\"GPS_Lat\", type number}}, \"en-CM\"),",
-                "    #\"Type modifié avec paramètres régionaux1\" = Table.TransformColumnTypes(#\"Type modifié avec paramètres régionaux\", {{\"GPS_Long\", type number}}, \"en-CM\")",
+                "    #\"Type modifié avec paramètres régionaux1\" = Table.TransformColumnTypes(#\"Type modifié avec paramètres régionaux\", {{\"GPS_Long\", type number}}, \"en-CM\"),",
+                "    #\"Colonnes supprimées\" = Table.RemoveColumns(#\"Type modifié avec paramètres régionaux1\",{\"Colonne 5\", \"Column 35\"})",
                 "in",
-                "    #\"Type modifié avec paramètres régionaux1\""
+                "    #\"Colonnes supprimées\""
               ],
               "type": "m"
             }
@@ -23642,6 +24545,59 @@
             "expression": "Mesures[materiel transporté]-[materiel restant]",
             "formatString": "0",
             "lineageTag": "21f70c1c-e948-48ba-afe1-8129daa763b6"
+          },
+          {
+            "name": "Agent experimenté",
+            "expression": "CALCULATE(DISTINCTCOUNT(Data_Dashboard_1a[ID_Agent_Sante]),Data_Dashboard_1a[Annees_Experience] >= 1)",
+            "formatString": "0",
+            "lineageTag": "77309a6e-70f6-4e81-868a-2f0998b9b942"
+          },
+          {
+            "name": "% agent experimeté",
+            "expression": "DIVIDE([Agent experimenté],[total agent sante])",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "095db641-3998-46b0-8cab-ceed0e42adae"
+          },
+          {
+            "name": "Agent par site",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "[total agent sante]/[Total site couvert]",
+            "lineageTag": "192523af-4a60-45a9-af0c-840f277d8b3c"
+          },
+          {
+            "name": "Total superviseur",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[ID_Superviseur])",
+            "formatString": "0",
+            "lineageTag": "28850e00-890c-4e26-b054-ddb6a303f6d9"
+          },
+          {
+            "name": "Total chauffeur",
+            "expression": "DISTINCTCOUNT(Data_Dashboard_1a[Nom_chauffeur])",
+            "formatString": "0",
+            "lineageTag": "f65dce1d-2371-49ea-a5da-131eb74ca49a"
+          },
+          {
+            "name": "Taux de stock utilisé",
+            "expression": "[Materiel utilisé]/[materiel transporté]",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "3db36afb-a684-409a-b6b2-1e66feed90c5"
+          },
+          {
+            "name": "% materiel restant",
+            "expression": "[materiel restant]/[materiel transporté]",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "15c3bfd3-3066-40da-a51f-a33ec668b2c7"
+          },
+          {
+            "name": "% materiel utilisé",
+            "expression": "[Materiel utilisé]/[materiel transporté]",
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "f251c72f-8c7e-43ed-9050-e8460ed021d2"
           }
         ],
         "partitions": [
@@ -23650,6 +24606,104 @@
             "mode": "import",
             "source": {
               "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Materiel",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "d03b22f4b0704957b366945af320e674"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Materiel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "ec0d3d13-8506-4a70-a21f-703f13b86292",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Materiel Champs"
+                }
+              ]
+            },
+            "sortByColumn": "Materiel Commande",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Materiel Champs",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "80491697-9a72-4f0f-a879-adac4bfea0cd",
+            "sortByColumn": "Materiel Commande",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Materiel Commande",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "c2dd9da8-772b-4649-8bb2-d1aa281c5a3a",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "02544290-ba2f-4def-8239-502b7d2b7024",
+        "partitions": [
+          {
+            "name": "Materiel",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"Transporté\", NAMEOF('Mesures'[materiel transporté]), 0),",
+                "    (\"Utilisé\", NAMEOF('Mesures'[Materiel utilisé]), 1),",
+                "    (\"Restant\", NAMEOF('Mesures'[materiel restant]), 2)",
+                "}"
+              ],
               "type": "calculated"
             }
           }
